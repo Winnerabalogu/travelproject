@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+}
+
+.navbar {
+  background-color: #F55A5A; /* Set your desired background color */
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: white; /* Set your desired text color */
+  margin: 0;
+}
+
+/* Add this to your existing CSS or create a new CSS file */
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.contentImg {
+  width: 125px; /* Adjust the size as needed */
+  margin-right: 20px; /* Adjust the spacing between image and content */
+  max-height: 168px;
+}
+
+.content-description {
+  flex-grow: 1;
+}
+
+.location-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+/* Style the icon */
+.icon {
+  max-width: 20px; /* Adjust the size as needed */
+  max-height: 20px; /* Adjust the size as needed */
+}
+
+.travelspot{
+color: #2B283A;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.traveldate{
+  color: #2B283A;
+font-family: Inter;
+font-size: 10.24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.summary{
+  color: #2B283A;
+font-family: Inter;
+font-size: 10.24px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 15.36px */
+}
+.locationdata{
+ color: #2B283A;
+font-family: Inter;
+font-size: 10.24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.741px;
+margin-right: 5px;
+}
+a{
+  color: #918E9B;
+font-family: Inter;
+font-size: 10.24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+}
+/* Add any additional styling as needed */
