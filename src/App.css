@@ -15,6 +15,11 @@ h1 {
   margin: 0;
 }
 
+.icon-logo{
+  margin-right: 5px;
+}
+
+
 /* Add this to your existing CSS or create a new CSS file */
 
 .content {
